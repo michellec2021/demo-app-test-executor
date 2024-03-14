@@ -1,0 +1,124 @@
+[
+  {
+    "name": "App Auto Dinner for 2",
+    "base_price": 29.5,
+    "choices": [
+      {
+        "name": "Choose Your Protein",
+        "is_preset": false,
+        "multiple_selection": false,
+        "min_choices": 1,
+        "max_choices": 1,
+        "descriptor": "Choose 1",
+        "show_image": true,
+        "show_description": false,
+        "values": [
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": "Peruvian spice-rubbed chicken with chimichurri and Peri-peri sauces",
+            "menu_item_name": "Perfect Chicken",
+            "menu_item_thumbnail_description": "Peruvian spice-rubbed chicken with chimichurri and Peri-peri sauces"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": 7,
+            "thumbnail_description": "Center-cut filets poached with lemon butter, topped with fresh dill",
+            "menu_item_name": "Lemon & Dill Salmon",
+            "menu_item_thumbnail_description": "Center-cut filets poached with lemon butter, topped with fresh dill"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": 12,
+            "thumbnail_description": "Tender braised beef with carrots, onion, celery and mushrooms",
+            "menu_item_name": "Braised Beef ",
+            "menu_item_thumbnail_description": "Tender braised beef with carrots, onion, celery and mushrooms"
+          }
+        ]
+      },
+      {
+        "name": "Choose Your Sides",
+        "is_preset": false,
+        "multiple_selection": false,
+        "min_choices": 2,
+        "max_choices": 2,
+        "descriptor": "Choose 2",
+        "show_image": true,
+        "show_description": false,
+        "values": [
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": "Cavatappi pasta with cheddar, fontina, Swiss, a hint of mustard and onion, buttery panko crumbs",
+            "menu_item_name": "DNU Mac & Cheese",
+            "menu_item_thumbnail_description": "Cavatappi with fontina, cheddar, and Swiss, and panko bread crumbs"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": "Chunky, homestyle Red Bliss potatoes, rich chicken gravy on the side",
+            "menu_item_name": "Mashed Potatoes",
+            "menu_item_thumbnail_description": "Homestyle mashed Red Bliss potatoes "
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Wild Rice Pilaf",
+            "menu_item_thumbnail_description": "Long grain and wild rice cooked in a flavorful vegetable stock"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Broccolini",
+            "menu_item_thumbnail_description": "Lemon and garlic broccolini with red pepper flakes"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Glazed Carrots",
+            "menu_item_thumbnail_description": "Brown sugar roasted carrots"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": 2,
+            "thumbnail_description": "Romaine, radicchio, endive, tomatoes, chickpeas, cucumbers, olives, feta, lemon dill vinaigrette ",
+            "menu_item_name": "DNU Chopped Salad",
+            "menu_item_thumbnail_description": "Romaine, radicchio, chickpeas, olives, feta, balsamic vinaigrette "
+          }
+        ]
+      },
+      {
+        "name": "Served with",
+        "is_preset": true,
+        "multiple_selection": false,
+        "min_choices": 1,
+        "max_choices": 1,
+        "descriptor": null,
+        "show_image": true,
+        "show_description": false,
+        "values": [
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": "Sweet Hawaiian rolls with garlic & chive butter ",
+            "menu_item_name": "DNU Bread with Herb Butter",
+            "menu_item_thumbnail_description": "Sweet Hawaiian rolls with garlic & chive butter "
+          }
+        ]
+      }
+    ]
+  }
+]

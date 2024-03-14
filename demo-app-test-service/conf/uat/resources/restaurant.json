@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Table No. 1 HDR Clark",
+    "nick_name": "Table No. 1",
+    "cuisine_style": "Family Style",
+    "price_rate": "$",
+    "short_description": "Family dinner made easy",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Barrio Café HDR UWS",
+    "nick_name": "Barrio Café",
+    "cuisine_style": "Mexican",
+    "price_rate": "$$",
+    "short_description": "Delicious classics from one of the country’s most acclaimed Mexican chefs",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Maydan HDR UWS",
+    "nick_name": "Maydan",
+    "cuisine_style": "Middle Eastern",
+    "price_rate": "$$",
+    "short_description": "Extraordinary Middle Eastern from one of the country’s best restaurants",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Bar Nakazawa HDR UWS",
+    "nick_name": "Bar Nakazawa",
+    "cuisine_style": "Sushi",
+    "price_rate": "$$",
+    "short_description": "Seafood artistry from one of the world's best sushi chefs",
+    "has_carousel_image": false
+  },
+  {
+    "name": "JBird by Jonathan Waxman HDR UWS",
+    "nick_name": "JBird by Jonathan Waxman",
+    "cuisine_style": "American",
+    "price_rate": "$$",
+    "short_description": "The rustic-yet-refined food that put this award-winning chef on the map.",
+    "has_carousel_image": false
+  },
+  {
+    "name": "Limesalt HDR UWS",
+    "nick_name": "Limesalt",
+    "cuisine_style": "Mexican",
+    "price_rate": "$",
+    "short_description": "Build-your-own Mexican favorites",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Tejas Barbecue Nevins",
+    "nick_name": "Tejas Barbecue",
+    "cuisine_style": "BBQ",
+    "price_rate": "$$",
+    "short_description": "One bite and it's clear why Tejas is considered one of Texas' best",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Bobby Flay Steak HDR UWS",
+    "nick_name": "Bobby Flay Steak",
+    "cuisine_style": "Steakhouse",
+    "price_rate": "$$$",
+    "short_description": "Bold flavors and premium cuts from one of the country’s best chefs",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Chuko HDR UWS",
+    "nick_name": "Chuko",
+    "cuisine_style": "Ramen",
+    "price_rate": "$$",
+    "short_description": "Classic ramen and other Japanese favorites.",
+    "has_carousel_image": false
+  },
+  {
+    "name": "Chai Pani HDR Chelsea",
+    "nick_name": "Chai Pani",
+    "cuisine_style": "Indian",
+    "price_rate": "$$",
+    "short_description": "Flavor-packed favorites from all corners of India",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Alanza HDR UWS",
+    "nick_name": "Alanza",
+    "cuisine_style": "Italian",
+    "price_rate": "$$",
+    "short_description": "The best of old-school red sauce joints",
+    "has_carousel_image": true
+  },
+  {
+    "name": "App Automation Inventory Test",
+    "nick_name": "App Automation Inventory Test",
+    "cuisine_style": "American",
+    "price_rate": "$$",
+    "short_description": "Brand for app automation team inventory testing",
+    "has_carousel_image": true
+  },
+  {
+    "name": "Chios Taverna by Michael Symon HDR UWS",
+    "nick_name": "Chios Taverna by Michael Symon",
+    "cuisine_style": "Greek",
+    "price_rate": "$$",
+    "short_description": "A star chef's take on delicious Greek flavors, just like his mother taught him",
+    "has_carousel_image": true
+  }
+]

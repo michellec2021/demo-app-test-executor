@@ -1,0 +1,1 @@
+Please put test apps under resource/app folder. The app's name should contain version.

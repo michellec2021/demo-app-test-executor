@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Spreads Duo",
+    "base_price": 16.0,
+    "choices": [
+      {
+        "name": "Choose Your Spreads",
+        "is_preset": false,
+        "multiple_selection": true,
+        "min_choices": 2,
+        "max_choices": 2,
+        "descriptor": "Choose 2",
+        "show_image": true,
+        "show_description": true,
+        "values": [
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "menu_item_name": "Hummus",
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_thumbnail_description": "Chickpeas, tahini, garlic, lemon, sumac"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Baba Ghanoush",
+            "menu_item_thumbnail_description": "Eggplant, garlic, tahini, lemon, olive oil, pine nuts, sumac"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "menu_item_name": "Labneh",
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_thumbnail_description": "Yogurt, lemon, dried mint, olive oil"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "menu_item_name": "Muhammara",
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_thumbnail_description": "Syria’s sweet-tart pepper, walnut, and tomato spread"
+          }
+        ]
+      }
+    ]
+  }
+]

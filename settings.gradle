@@ -1,0 +1,4 @@
+rootProject.name = 'demo-app-test-executor'
+include 'demo-app-test-service'
+include 'demo-app-test-interface'
+

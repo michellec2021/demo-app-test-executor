@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Spreads Trio",
+    "base_price": 20.0,
+    "choices": [
+      {
+        "name": "Choose Your Spreads",
+        "is_preset": false,
+        "multiple_selection": true,
+        "min_choices": 3,
+        "max_choices": 3,
+        "descriptor": "Choose 3",
+        "show_image": true,
+        "show_description": true,
+        "values": [
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Tzatziki",
+            "menu_item_thumbnail_description": "Greek yogurt, garlic, mint, dill, cucumber, feta, olives, pita"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Hummus",
+            "menu_item_thumbnail_description": "Hummus, crispy chickpeas, feta, olives, pita"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Spicy Pepper & Feta",
+            "menu_item_thumbnail_description": "Roasted red peppers, chipotles, feta, ricotta, honey, olives, pita"
+          },
+          {
+            "display_on_bdp": true,
+            "quantity": 1,
+            "additional_price": null,
+            "thumbnail_description": null,
+            "menu_item_name": "Eggplant",
+            "menu_item_thumbnail_description": "Eggplant, garlic, lemon, Aleppo pepper, feta, olives, pita"
+          }
+        ]
+      }
+    ]
+  }
+]

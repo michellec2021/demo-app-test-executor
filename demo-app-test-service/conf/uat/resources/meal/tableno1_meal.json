@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Perfect Chicken",
+    "price": 13
+  },
+  {
+    "name": "Lemon & Dill Salmon",
+    "price": 25
+  },
+  {
+    "name": "Braised Beef",
+    "price": 28
+  },
+  {
+    "name": "DNU Mac & Cheese",
+    "price": 9.95
+  },
+  {
+    "name": "Mashed Potatoes",
+    "price": 9.95
+  },
+  {
+    "name": "Wild Rice Pilaf",
+    "price": 9.95
+  },
+  {
+    "name": "Broccolini",
+    "price": 9.95
+  },
+  {
+    "name": "Glazed Carrots",
+    "price": 9.95
+  },
+  {
+    "name": "DNU Chopped Salad",
+    "price": 9.95
+  },
+  {
+    "name": "DNU Bread with Herb Butter",
+    "price": 1.5
+  },
+  {
+    "name": "Brownie",
+    "price": 3
+  },
+  {
+    "name": "Open Water Still Water",
+    "price": 3
+  }
+]

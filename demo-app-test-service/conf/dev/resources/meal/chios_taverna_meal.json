@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tzatziki",
+    "price": 8.0,
+    "options": [
+      {
+        "name": "Add Pita",
+        "display_name": "Add Pita",
+        "min_choices": 1,
+        "max_choices": 1,
+        "type_name": "MANDATORY_CHOICE",
+        "display_type": "FEATURED",
+        "values": [
+          {
+            "name": "Add Pita",
+            "display_name": "Include Pita",
+            "price": 0.0,
+            "default_option": true
+          },
+          {
+            "name": "No Pita",
+            "display_name": "No Pita",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  }
+]

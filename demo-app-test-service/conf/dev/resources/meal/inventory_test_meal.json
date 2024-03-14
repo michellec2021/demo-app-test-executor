@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Meal without option",
+    "price": 12
+  },
+  {
+    "name": "Meal 01",
+    "thumbnail_description": "Crispy on the outside. Tender, juicy, organic white meat on the inside",
+    "long_description": "Crispy on the outside. Tender, juicy, organic white meat on the inside",
+    "price": 5,
+    "options": [
+      {
+        "name": "Mandatory Choice1",
+        "display_name": "Mandatory Choice1",
+        "min_choices": 1,
+        "max_choices": null,
+        "show_picture": true,
+        "type_name": "MANDATORY_CHOICE",
+        "display_type": "FEATURED",
+        "show_description": false,
+        "values": [
+          {
+            "name": "op1-1",
+            "display_name": "op1-1",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op1-2",
+            "display_name": "op1-2",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op1-3",
+            "display_name": "op1-3",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op1-9",
+            "display_name": "op1-9",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Mandatory Choice2",
+        "display_name": "Mandatory Choice2",
+        "min_choices": 2,
+        "max_choices": null,
+        "show_picture": true,
+        "type_name": "MANDATORY_CHOICE",
+        "display_type": "FEATURED",
+        "show_description": false,
+        "values": [
+          {
+            "name": "op1-4",
+            "display_name": "op1-4",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op1-5",
+            "display_name": "op1-5",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op1-6",
+            "display_name": "op1-6",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Optional Choice3",
+        "display_name": "Optional Choice3",
+        "min_choices": 0,
+        "max_choices": null,
+        "show_picture": true,
+        "type_name": "OPTIONAL_ADDITION",
+        "display_type": "FEATURED",
+        "show_description": false,
+        "values": [
+          {
+            "name": "op1-7",
+            "display_name": "op1-7",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op1-8",
+            "display_name": "op1-8",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 03",
+    "thumbnail_description": "Add your favorite toppings to our classic cheese pizza ",
+    "long_description": "Add your favorite toppings to our classic cheese pizza ",
+    "price": 10,
+    "options": [
+      {
+        "name": "Mandatory Choice2",
+        "display_name": "Mandatory Choice2",
+        "min_choices": 2,
+        "max_choices": null,
+        "show_picture": false,
+        "type_name": "MANDATORY_CHOICE",
+        "display_type": "FEATURED",
+        "show_description": false,
+        "values": [
+          {
+            "name": "op3-1",
+            "display_name": "op3-1",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op3-2",
+            "display_name": "op3-2",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op3-3",
+            "display_name": "op3-3",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 04",
+    "thumbnail_description": "Arugula Salad, Di Fara-ch",
+    "long_description": "Arugula Salad, Di Fara-ch",
+    "price": 15,
+    "options": [
+      {
+        "name": "Optional Choice",
+        "display_name": "Optional Choice",
+        "min_choices": 0,
+        "max_choices": null,
+        "show_picture": false,
+        "type_name": "OPTIONAL_ADDITION",
+        "display_type": "SPECIAL_REQUEST",
+        "show_description": false,
+        "values": [
+          {
+            "name": "op4-7",
+            "display_name": "op4-7",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op4-8",
+            "display_name": "op4-8",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op4-10",
+            "display_name": "op4-10",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Mandatory Choice1",
+        "display_name": "Mandatory Choice1",
+        "min_choices": 1,
+        "max_choices": null,
+        "show_picture": false,
+        "type_name": "MANDATORY_CHOICE",
+        "display_type": "FEATURED",
+        "show_description": false,
+        "values": [
+          {
+            "name": "op4-1",
+            "display_name": "op4-1",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op4-2",
+            "display_name": "op4-2",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op4-3",
+            "display_name": "op4-3",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op4-9",
+            "display_name": "op4-9",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Mandatory Choice2",
+        "display_name": "Mandatory Choice2",
+        "min_choices": 2,
+        "max_choices": null,
+        "show_picture": false,
+        "type_name": "MANDATORY_CHOICE",
+        "display_type": "FEATURED",
+        "show_description": false,
+        "values": [
+          {
+            "name": "op4-4",
+            "display_name": "op4-4",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op4-5",
+            "display_name": "op4-5",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "op4-6",
+            "display_name": "op4-6",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  }
+]

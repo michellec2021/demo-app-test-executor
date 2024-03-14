@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Hummus",
+    "price": 9.0,
+    "options": [
+      {
+        "name": "Add Flatbread",
+        "display_name": "Choose Your Flatbread",
+        "min_choices": 1,
+        "max_choices": 1,
+        "type_name": "MANDATORY_CHOICE",
+        "display_type": "FEATURED",
+        "values": [
+          {
+            "name": "Add Flatbread",
+            "display_name": "Include Flatbread",
+            "price": 0.0,
+            "default_option": true
+          },
+          {
+            "name": "No Flatbread",
+            "display_name": "No Flatbread",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lamb Shawarma",
+    "price": 19,
+    "options": [
+      {
+        "name": "On the side",
+        "display_name": "On the side",
+        "min_choices": 0,
+        "max_choices": null,
+        "values": [
+          {
+            "name": "Tahina",
+            "display_name": "Tahina",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Optional Subtraction",
+        "display_name": "Optional Subtraction",
+        "min_choices": 0,
+        "max_choices": null,
+        "values": [
+          {
+            "name": "Shawarma Slaw",
+            "display_name": "No Slaw",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Sauce Trio",
+        "display_name": "Sauce Trio",
+        "min_choices": 1,
+        "max_choices": 1,
+        "values": [
+          {
+            "name": "No Sauce Trio",
+            "display_name": "No Sauce Trio",
+            "price": 0,
+            "default_option": false
+          },
+          {
+            "name": "Sauce Trio",
+            "display_name": "Include Sauce Trio",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Baba Ghanoush",
+    "price": 9.0,
+    "options": [
+      {
+        "name": "Optional Subtraction",
+        "display_name": "Special Request",
+        "min_choices": 0,
+        "max_choices": null,
+        "values": [
+          {
+            "name": "Pine Nuts",
+            "display_name": "No Pine Nuts",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Add Flatbread",
+        "display_name": "Choose Your Flatbread",
+        "min_choices": 1,
+        "max_choices": 1,
+        "values": [
+          {
+            "name": "Add Flatbread",
+            "display_name": "Include Flatbread",
+            "price": 0.0,
+            "default_option": true
+          },
+          {
+            "name": "No Flatbread",
+            "display_name": "No Flatbread",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Labneh",
+    "price": 9.0,
+    "options": [
+      {
+        "name": "Add Flatbread",
+        "display_name": "Choose Your Flatbread",
+        "min_choices": 1,
+        "max_choices": 1,
+        "values": [
+          {
+            "name": "Add Flatbread",
+            "display_name": "Include Flatbread",
+            "price": 0.0,
+            "default_option": true
+          },
+          {
+            "name": "No Flatbread",
+            "display_name": "No Flatbread",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Muhammara",
+    "price": 9.0,
+    "options": [
+      {
+        "name": "Add Flatbread",
+        "display_name": "Choose Your Flatbread",
+        "min_choices": 1,
+        "max_choices": 1,
+        "values": [
+          {
+            "name": "Add Flatbread",
+            "display_name": "Include Flatbread",
+            "price": 0.0,
+            "default_option": true
+          },
+          {
+            "name": "No Flatbread",
+            "display_name": "No Flatbread",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      },
+      {
+        "name": "Optional Subtraction",
+        "display_name": "Optional Subtraction",
+        "min_choices": 0,
+        "max_choices": null,
+        "values": [
+          {
+            "name": "Remove Chives",
+            "display_name": "No Chives",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fattoush Salad",
+    "thumbnail_description": "Romaine, cucumber, tomato, onion, mint, pickled shishitos, croutons",
+    "long_description": "The zestiest salad this side of Tripoli: Romaine lettuce, Persian cucumbers, tomatoes, mint, pickled shishitos and sumac onions, with pomegranate vinaigrette and pita croutons",
+    "price": 12,
+    "options": [
+      {
+        "name": "Optional Subtraction",
+        "display_name": "Special Request",
+        "min_choices": 0,
+        "max_choices": null,
+        "values": [
+          {
+            "name": "Pita Chips",
+            "display_name": "No Pita Croutons",
+            "price": 0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hungry Gnome Dark & White Chocolate Toffee Cookie",
+    "price": 4.5
+  },
+  {
+    "name": "Brussels Sprouts",
+    "price": 10
+  },
+  {
+    "name": "Vegetable Shawarma",
+    "price": 16
+  }
+]

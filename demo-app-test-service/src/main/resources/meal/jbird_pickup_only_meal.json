@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Rigatoni alla Amatriciana",
+    "price": 16
+  },
+  {
+    "name": "Heirloom Tomato Bruschetta",
+    "price": 12
+  },
+  {
+    "name": "Chicken Wings with Creamy Salsa Verde",
+    "price": 12
+  },
+  {
+    "name": "Salted Caramel Cookie",
+    "price": 3
+  },
+  {
+    "name": "Braised Short Ribs & Mashed Potatoes",
+    "price": 24.0,
+    "options": [
+      {
+        "name": "Optional Subtraction",
+        "display_name": "Special Requests",
+        "min_choices": 0,
+        "max_choices": null,
+        "values": [
+          {
+            "name": "No Chives",
+            "display_name": "No Chives",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "JW Chicken with Salsa Verde & Crispy Potatoes",
+    "price": 23.0,
+    "options": [
+      {
+        "name": "On the side",
+        "display_name": "On the side",
+        "min_choices": 0,
+        "max_choices": null,
+        "values": [
+          {
+            "name": "Salsa Verde",
+            "display_name": "Salsa Verde",
+            "price": 0.0,
+            "default_option": false
+          }
+        ]
+      }
+    ]
+  }
+]

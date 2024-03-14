@@ -1,0 +1,117 @@
+apply from: file("${rootDir}/gradle/project.gradle")
+apply from: file("${rootDir}/gradle/azure-maven.gradle")
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "io.freefair.gradle:aspectj-plugin:6.6-rc1"
+    }
+}
+
+repositories {
+    maven {
+        url 'https://food-truck.github.io/core-ng-for-test-executor/maven-repo/'
+        content {
+            includeGroupByRegex 'core\\.framework.*'
+        }
+    }
+}
+
+project.ext {
+    aspectjVersion = '1.9.6'
+}
+
+subprojects {
+    group 'com.wonder'
+    version '1.0.0'
+    apply plugin: 'maven-publish'
+
+    publishing {
+        publications {
+            customLibrary(MavenPublication) {
+                from components.java
+            }
+        }
+
+        repositories {
+            maven {
+                name = 'sampleRepo'
+                url = layout.buildDirectory.dir("repo")
+            }
+        }
+    }
+
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://food-truck.github.io/core-ng-for-test-executor/maven-repo/'
+            content {
+                includeGroupByRegex 'core\\.framework.*'
+            }
+        }
+    }
+
+    if (!plugins.hasPlugin(JavaPlugin)) return
+    sourceSets {
+        dev {
+            java {
+                srcDir 'src/dev/java'
+            }
+            compileClasspath = compileClasspath + sourceSets.main.compileClasspath + sourceSets.test.compileClasspath
+            runtimeClasspath = runtimeClasspath + sourceSets.main.runtimeClasspath + sourceSets.test.runtimeClasspath
+        }
+    }
+
+    tasks.named('pmdDev').configure({
+        group = 'verification'
+        ignoreFailures = true
+    })
+
+    tasks.named('spotbugsDev').configure({
+        group = 'verification'
+        ignoreFailures = true
+    })
+
+    tasks.named('test').configure({
+        exclude "**/app/demoappservice/local/**"
+    })
+}
+
+def aspectjVersion = '1.9.6'
+def coreNGVersion = '6.13.9'
+def appExecutorFrameworkVersion = '1.1.8'
+def commonExecutorFrameworkVersion = '1.1.3'
+
+configure(subprojects.findAll { it -> it.name.endsWith('-service') || it.name.matches(/(-|\w)+-service-v\d+$/) }) {
+    apply plugin: "io.freefair.aspectj.post-compile-weaving"
+    apply from: file("${rootDir}/gradle/app.gradle")
+    dependencies {
+        implementation "core.framework:core-ng:${coreNGVersion}"
+        testImplementation "core.framework:core-ng-test:${coreNGVersion}"
+        implementation "org.aspectj:aspectjrt:${aspectjVersion}"
+        implementation "org.aspectj:aspectjweaver:${aspectjVersion}"
+        implementation 'io.qameta.allure:allure-junit4:2.21.0'
+        implementation 'junit:junit:4.12'
+        implementation "com.wonder:app-test-executor-framework:${appExecutorFrameworkVersion}"
+        implementation "com.github.spotbugs:spotbugs:4.3.0"
+        implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.2'
+    }
+}
+
+configure(subprojects.findAll { it.name.matches('.*-interface') }) {
+    dependencies {
+        implementation "core.framework:core-ng-api:${coreNGVersion}"
+        implementation 'junit:junit:4.12'
+        implementation "com.wonder:common-test-executor-framework:${commonExecutorFrameworkVersion}"
+    }
+}
+
+configure(project(':demo-app-test-service')) {
+    dependencies {
+        implementation project(':demo-app-test-interface')
+    }
+}

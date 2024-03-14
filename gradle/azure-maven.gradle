@@ -1,0 +1,20 @@
+def azureProps = new Properties()
+if (file("${rootDir}/azure.properties").exists()) file("${rootDir}/azure.properties").withInputStream { azureProps.load(it) }
+
+def fileAccessToken = azureProps.containsKey('azure.packages.accessToken') ? azureProps.getProperty("azure.packages.accessToken") : null
+def envAccessToken = System.getenv("AZURE_PACKAGES_ACCESSTOKEN")
+def mavenAccessToken = envAccessToken != null ? envAccessToken : fileAccessToken
+//println mavenAccessToken
+
+subprojects {
+    repositories {
+        maven {
+            url 'https://pkgs.dev.azure.com/foodtruckinc/Wonder/_packaging/maven-local/maven/v1'
+            name 'maven-local'
+            credentials {
+                username = 'foodtruckinc'
+                password = mavenAccessToken
+            }
+        }
+    }
+}
